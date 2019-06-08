@@ -1,0 +1,4 @@
+find . -type f -exec sum {} \; | awk '{print $3, $1}' > checksums.txt
+
+find . -name "*.sha1" | awk '{printf("%s ", $1); system("cat " $1); printf("\n")}' > ~/temp/ctxfiles.txt
+

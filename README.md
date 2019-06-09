@@ -1,4 +1,4 @@
-#pyCheckSumCompare
+# pyCheckSumCompare
 
 This was a simple tool I created to help learn the simplicity and power of python. 
 
